@@ -1,0 +1,6 @@
+- link: 'ruby'
+  display_name: 'Ruby'
+- link: 'object-oriented_design'
+  display_name: 'Object-Oriented Design'
+- link: 'rails'
+  display_name: 'Rails'

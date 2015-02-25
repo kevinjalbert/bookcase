@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <ul class="book-list">
+    {% for book in site.books %}
+      <li>
+        <div class="book-list-meta">
+          <span class="book-list-author">{{ book.authors | link_author_string }} | {{ book.published_date: "%b %-d, %Y" }}</span>
+          <span class="book-list-location">{{ book.location }} | {{ book.last_seen: "%b %-d, %Y" }}</span>
+        </div>
+
+        <br/>
+
+        <a class="book-list-link" href="{{ book.url | prepend: site.baseurl }}">{{ book.title }}</a>
+
+        <ul class="book-list-tags">{{ book.tags | link_tag_string }}</ul>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

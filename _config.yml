@@ -1,0 +1,26 @@
+# Site settings
+title: Bookcase
+email: kevin.j.jalbert@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Bookcase of Books
+baseurl: "/bookcase" # the subpath of your site, e.g. /blog/
+url: "http://kevinjalbert.github.io" # the base hostname & protocol for your site
+
+exclude: ['Rakefile', 'README.md', 'LICENSE']
+
+# Build settings
+markdown: kramdown
+
+collections:
+  books:
+    output: true
+
+page_gen:
+  - data: 'authors'
+    template: 'author'
+    name: 'link'
+    dir: 'authors'
+  - data: 'tags'
+    template: 'tag'
+    name: 'link'
+    dir: 'tags'
