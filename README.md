@@ -1,3 +1,11 @@
+# This repository is ⚰️ ARCHIVED ⚰️
+
+I haven't used/worked on this repository in quite some time, thus I'm archiving it.
+
+Feel free to fork and take the project in a new direction. You could also contact me to unarchive it if you are willing to maintain it.
+
+-----
+
 # Bookcase
 A [Jekyll](http://jekyllrb.com/) static site to display your books, mixed in with some basic filtering and book metadata. The metadata on each book aids in tracking the location of the book (if it has been borrowed).
 
